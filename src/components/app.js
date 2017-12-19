@@ -6,7 +6,9 @@ import BooKList from '../containers/book-list';
 export default class App extends Component {
   render() {
     return (
-      <BookList />
+      <div>
+        <BookList />
+      </div>
     );
   }
 }
