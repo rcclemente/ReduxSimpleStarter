@@ -11,9 +11,11 @@ class BookList extends Component {
   }
 
   render() {
-    <ul className="list-group col-sm-4">
-      {this.renderList()}
-    </ul>
+    return(
+      <ul className="list-group col-sm-4">
+        {this.renderList()}
+      </ul>
+    );
   }
 }
 
