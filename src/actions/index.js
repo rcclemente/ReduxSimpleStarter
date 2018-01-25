@@ -1,3 +1,3 @@
-export function selectBook(Book) {
-  conssole.log("A book has been selected: ", book.title);
+export function selectBook(book) {
+  console.log('A book has been selected:', book.title);
 }
